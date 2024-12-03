@@ -1,0 +1,38 @@
+
+.gb-vid {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gb-vid video {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.le {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.172)  ;
+}
+
+
+.video-txt {
+    color: rgb(67, 120, 86);
+    z-index: 2;
+
+}
